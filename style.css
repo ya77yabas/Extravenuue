@@ -28,8 +28,8 @@ label{
     color: #2110a2;
 }
 .header-text{
-    max-width: 450px;
-    margin-top: 140px;
+    max-width: 500px;
+    margin-top: 90px;
 }
 h1{
     font-size: 34px;
@@ -68,6 +68,18 @@ p{
 .line{
     line-height: 8px;
 }
+span{
+    color: #2110a2;
+    margin-top: 10px
+}
+.container h3{
+    font-size: 17px;
+    margin-top: 15px
+}
+.subscribtion input{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
 
 /*--about--*/
 
@@ -93,7 +105,7 @@ p{
     margin-right: 100px;
     display: inline-block;
 }
-.about-text h2{
+h2{
     margin: 50px 0 10px;
     font-size: 28px;
     font-style: italic;
@@ -167,7 +179,7 @@ p{
     flex-basis: 50%;
 }
 .course-text{
-    max-width: 350px;
+    max-width: 400px;
 }
 
 /*--contact--*/
@@ -263,9 +275,14 @@ hr{
     font-weight: 700
 }
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 860px){
     #header{
         background-image: none;
+    }
+    h2{
+        margin: 45px 0 8px;
+        font-size: 28px;
+        font-style: italic;
     }
     .container{
         margin-right: 50px;
@@ -278,7 +295,7 @@ hr{
         text-align: center;
     }
     .header-text{
-        margin-top: 100px;
+        margin-top: 70px;
     }
     h1{
         font-size: 25px;
