@@ -23,6 +23,7 @@
     margin-left: 46%;
     font-size: 17px;
     font-weight: 700;
+    letter-spacing: 2px
 }
 label{
     color: #2110a2;
@@ -105,7 +106,7 @@ span{
     margin-right: 100px;
     display: inline-block;
 }
-h2{
+.about-text h2{
     margin: 50px 0 10px;
     font-size: 28px;
     font-style: italic;
@@ -216,6 +217,11 @@ form input{
     flex-basis: 48%;
     padding: 18px 0;
 }
+h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
 
 /*--footer--*/
 #footer{
@@ -291,11 +297,11 @@ hr{
     .logo{
         margin-top: 27px;
         width: 60px;
-        margin-left: 50%;
+        margin-left: 45%;
         text-align: center;
     }
     .header-text{
-        margin-top: 70px;
+        margin-top: 55px;
     }
     h1{
         font-size: 25px;
