@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-}
 
 #header{
     height: 100vh;
@@ -20,17 +19,17 @@
 .logo{
     margin-top: 30px;
     width: 80px;
-    margin-left: 46%;
+    margin-left: 450px;
     font-size: 17px;
     font-weight: 700;
-    letter-spacing: 2px
+    letter-spacing: 5px;
 }
 label{
     color: #2110a2;
 }
 .header-text{
-    max-width: 500px;
-    margin-top: 90px;
+    max-width: 450px;
+    margin-top: 100px;
 }
 h1{
     font-size: 34px;
@@ -240,7 +239,7 @@ hr{
 }
 .footer-left-col{
     flex-basis: 50%;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .footer-right-col{
     flex-basis: 35%;
@@ -249,6 +248,7 @@ hr{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .link-title h4{
     color: #2110a2;
@@ -269,6 +269,7 @@ hr{
     align-items: flex-end;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 .footer-logo img{
     width: 100px;
@@ -277,8 +278,10 @@ hr{
     flex-basis: 40%;
 }
 .logo-2{
-    font-size: 25px;
-    font-weight: 700
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 860px){
@@ -296,14 +299,17 @@ hr{
     }
     .logo{
         margin-top: 27px;
-        width: 60px;
+        width: 50px;
+        font-size: 15px;
+        letter-spacing: 5px;
         text-align: center;
+        margin-left: 57px;
     }
     .header-text{
         margin-top: 55px;
     }
     h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .about-letf-col, .about-right-col{
         flex-basis: 100%;
@@ -343,10 +349,17 @@ hr{
     .container-1{
         width: 50%;
         height: 200px;
-        background:;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .logo-2{
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
     }
     
 }
