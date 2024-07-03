@@ -33,6 +33,7 @@ label{
 }
 h1{
     font-size: 34px;
+    color: #2110a2;
 }
 .square{
     height: 12px;
@@ -109,12 +110,9 @@ span{
     margin: 50px 0 10px;
     font-size: 28px;
     font-style: italic;
+    color: #2110a2;
 }
-.about-text h3{
-    font-size: 28px;
-    font-style: italic;
-    color: #797979;
-}
+
 
 
 /*--features--*/
@@ -145,6 +143,7 @@ span{
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 400;
+    color: #2110a2;
 }
 .feature-btn{
     margin: 80px auto 0;
@@ -157,7 +156,6 @@ span{
     display: inline-block;
     margin-right: 25px;
 }
-
 /*--courses--*/
 
 #courses{
@@ -220,6 +218,7 @@ h2{
     margin: 50px 0 10px;
     font-size: 28px;
     font-style: italic;
+    color: #2110a2;
 }
 
 /*--footer--*/
@@ -292,6 +291,7 @@ hr{
         margin: 45px 0 8px;
         font-size: 28px;
         font-style: italic;
+        color: #2110a2;
     }
     .container{
         margin-right: 50px;
@@ -310,6 +310,7 @@ hr{
     }
     h1{
         font-size: 20px;
+        color: #2110a2;
     }
     .about-letf-col, .about-right-col{
         flex-basis: 100%;
@@ -320,6 +321,7 @@ hr{
     }
     .about-text h2{
         font-size: 18px;
+        color: #2110a2;
     }
     .col{
         flex-basis: 100%;
@@ -355,6 +357,7 @@ hr{
     }
     h2{
         font-size: 18px;
+        color: #2110a2;
     }
     .logo-2{
         margin-bottom: 15px;
