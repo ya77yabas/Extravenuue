@@ -4,25 +4,27 @@
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-
+}
 #header{
     height: 100vh;
     background-image: url(Emails-pana.png);
-    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: right;
 }
+
 .container{
     margin-right: 100px;
     margin-left: 100px;
 }
 .logo{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 80px;
     margin-left: 450px;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 5px;
+    color: #2110a2;
 }
 label{
     color: #2110a2;
@@ -43,7 +45,7 @@ h1{
     margin: 15px 0;
 }
 p{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     color: #777;
     margin-bottom: 20px
@@ -66,6 +68,32 @@ p{
     background: #2110a2;
     display: inline-block;
 }
+.hero-btn{
+    margin-top: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: #2110a2;
+    text-decoration: none;
+    border: white 2px;
+    transition: 0.5s;
+}
+.hero-btn:hover{
+    background-color: white;
+
+}
+.hero-btn a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+.hero-btn a:hover{
+    color: #2110a2;
+}
+
 .line{
     line-height: 8px;
 }
@@ -119,10 +147,20 @@ span{
 
 #features{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: -10px;
+}
+li{
+    color: #777;
+    font-size: 18px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    color: #2110a2;
 }
 .row{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -159,7 +197,7 @@ span{
 /*--courses--*/
 
 #courses{
-    padding: 100px 0;
+    padding: 50px 0;
     margin-bottom: -250px;
 }
 .course-row{
@@ -178,6 +216,97 @@ span{
 }
 .course-text{
     max-width: 400px;
+}
+.hero-btn3{
+    margin-top: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #2110a2;
+    text-decoration: none;
+    border: white 2px;
+    transition: 0.5s;
+}
+.hero-btn3 a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+.hero-btn3:hover{
+    background-color: white;
+}
+.hero-btn3 a:hover{
+    color: #2110a2;
+}
+/*--offer--*/
+#offers{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    width: 100%;
+    border: 1px solid white;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(white 50%, #2110a2 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2110a2;
+    margin: 1em 0;
+}
+p{
+    color: #777;
+}
+.icon-warpper{
+    background-color: #2110a2;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+.card:hover{
+    background-position: 0 100%;
+}
+.card:hover .icon-warpper{
+    background-color: white;
+    color: #2110a2;
+}
+.card:hover h3{
+    color: white;
+}
+.card:hover p{
+    color: white;
 }
 
 /*--contact--*/
@@ -204,6 +333,7 @@ form input{
     box-shadow: none;
     box-sizing: border-box;
     border: 2px solid #2110a2;
+    border-radius: 30px;
 }
 .btn-box{
     width: 100%;
@@ -213,6 +343,7 @@ form input{
 .btn-box button{
     flex-basis: 48%;
     padding: 18px 0;
+    border-radius: 50px;
 }
 h2{
     margin: 50px 0 10px;
@@ -364,6 +495,9 @@ hr{
         font-size: 14px;
         letter-spacing: 2px;
     }
+    #contact{
+        margin-top: 1350px;
+    }
     
 }
 button{
@@ -377,4 +511,23 @@ button{
 button:hover{
     background: #2110a2;
     color: white;
+}
+
+@media screen and (min-width: 768px) {
+    #offers{
+        padding: 0 2em;
+    }
+    .column{
+        flex: 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (min-width: 992px){
+    #offers{
+        padding: 1em 3em;
+    }
+    .column{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
 }
