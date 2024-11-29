@@ -445,9 +445,14 @@ hr{
     }
     .about-letf-col, .about-right-col{
         flex-basis: 100%;
-    }   
+        margin-top: -200px;
+    }  
+    #features{
+        margin-top: -150px;
+    } 
     .about-text{
-        margin: 50px ;
+        margin: 50px;
+        margin-top: 150px;
         display: inline-block;
     }
     .about-text h2{
@@ -496,7 +501,7 @@ hr{
         letter-spacing: 2px;
     }
     #contact{
-        margin-top: 1350px;
+        margin-top: 1450px;
     }
     
 }
